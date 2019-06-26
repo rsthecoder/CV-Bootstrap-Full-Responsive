@@ -1,0 +1,156 @@
+html,
+body {
+  color: #434242;
+  font-family: "Open Sans", sans-serif !important;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+.container-fluid {
+  padding: 5px 15%;  
+  background-color: #207286;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 50px 100px;
+  text-align: center;
+}
+
+/*Profile Section*/
+h1 {
+  color: #22a39f;
+}
+
+h2 {
+  color: #22a39f;
+  margin: 1.5rem;
+}
+
+/* Navigation Section*/
+#navigation-bar {
+  background-color: #fff;
+}
+
+.navbar-logo {
+  width: 50px;
+  height: 50px;
+}
+
+/* Profile Section*/
+
+.profile-image {
+  width: 210px;
+  -margin: 5% 12%;
+  border-radius: 100%;
+}
+
+.about-me-text {
+  padding: 0 15%;
+}
+
+/* Between Sections */
+
+#between-sections{
+  position: relative;  
+  color: azure;
+}
+
+#between-sections h2{
+  color: white;
+
+}
+
+.between-section1{
+  background: url(images/wallhaven-651357.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.between-section2{
+  background: url(images/2.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.between-section3{
+  background: url(images/7.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* My abilities */
+#abilities{
+  margin: 4% 0;
+
+}
+
+.ability-spec{
+    text-align: left;
+    padding-left: 10%;
+}
+.ability-spec p{
+  margin-bottom: 10px;
+}
+
+.ability-spec span{
+  float: right;
+}
+
+.star-full {
+  color: #22a39f;
+  font-size: 20px;
+}
+
+.star-full:hover {
+  color: #0c5351;
+}
+
+.star-empty {
+  color: #dfe0e0;
+  font-size: 20px;
+}
+
+.star-empty:hover {
+  color: #c9cccc;
+}
+
+.row{
+  margin-top: 50px;
+}
+
+/* Services Section */
+
+#services{
+  margin: 4% 0;
+}
+
+.icon {
+  color: #22a39f;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: aquamarine;
+}
+
+
+
+
+
+/* Contact Me Styling*/
+#contact button{
+  margin-top: 25px;
+}
+
+form {
+  text-align: left;
+  padding: 5%;
+}
+
+/* Footer Styling */
+footer{
+  padding: 1% 0;
+  background-color: #207286;
+}
+
+footer a{
+  color: azure;
+}
+
+
